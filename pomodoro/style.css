@@ -1,0 +1,147 @@
+
+/* G L O B A L */
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(./imgs/opera_house.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page{
+    width: 468px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 9rem;
+    height: 3rem;
+
+    border-radius: 30px; 
+    background-color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+#short-break:hover{
+    background-color: white;
+    border: none;
+}
+#long-break:hover{
+    background-color: white;
+    border: none;
+}
+
+
+.icons{
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.modal{
+    width: 40%;
+    height: 300px;
+
+    position: absolute;
+    top: 5%;
+
+    background-color:beige;
+
+    border-radius: 10px;
+
+    display: none;
+}
+
+.container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pomodoro-options{
+    height: 43px;
+
+    display: flex;
+
+    gap: 20px;
+}
+
+
+.container-timer{
+    margin: 2rem 0 2rem 0;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 80px;
+    font-weight: 900;
+
+}
+
+footer{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.container-btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+    gap: 30px;
+}
+
+#short-break,
+#long-break{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.pause-actived{
+    display: none;
+}
+
+.icon-refresh:before {
+    content: "\e900";
+    font-size: 2.5rem;
+  }
+
+  .icon-cog:before {
+    content: "\e994";
+    font-size: 2.5rem;
+  }

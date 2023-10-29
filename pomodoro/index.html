@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./icons/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="page">
+        <!--The Modal-->
+        <div class="modal">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+            </div>
+            
+            <div class="modal-body">
+                <ul>
+                    <li>General</li>
+                    <li>Timers</li>
+                </ul>
+            </div>
+    
+            <div class="modal-footer">
+    
+            </div>
+            
+        </div>
+        <header>
+            <nav class="container">
+                <ul class="pomodoro-options">
+                    <li id="pomodoro" class="btn">
+                        <h1>pmoodro</h1>
+                    </li>
+                    <li id="short-break" class="btn">
+                        <h1>short break</h1>
+                    </li>
+                    <li id="long-break" class="btn">
+                        <h1>long break</h1>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="container-timer">
+            <span id="digit"></span>
+        </div>
+    
+        <footer>
+            <ul class="container-btns">
+                <li id="start" class="btn-start btn">
+                    <span>start</span>
+                </li>
+                <li div class="icon-refresh icons" id="settings"onclick="reload()"></li>
+                <li class="icon-cog icons"></li>
+            </ul>
+        </footer>
+    </div>
+        
+    <script src="./main.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
